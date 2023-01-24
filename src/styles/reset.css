@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+html{
+    font-size: 62,5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    overflow-y: hidden;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+    
+h1{
+    color: #426696;
+    font-weight: 600;
+    font-size: 1.5rem;
+    opacity: 0.7;
+}
+h2,p,a{
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+ p:hover{
+    color: #03912e;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.4s ease-in-out;
+}
+h2{
+    font-size: 0.9rem;
+}
+p{
+    font-size: 0.7rem;
+}
+h3{
+    color: #426696;
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 0.7rem;
+}
+
+.game::after{
+    content:'|';
+    animation: pisca .9s infinite ease-in-out;
+}
+
+.audio{
+    max-width: 48px;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+
+@keyframes pisca {
+    0%, 100%{
+      opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+@keyframes controle {
+    0%{
+       transform: translateY(-5px);
+    }
+    100%{
+       transform: translateY(5px);
+    }
+}

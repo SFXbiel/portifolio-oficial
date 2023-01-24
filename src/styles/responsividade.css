@@ -1,0 +1,55 @@
+@media  (max-width: 701px) {
+    .infoo{
+        padding-left: 15px;
+    }
+
+    .pro{
+        width: 12rem;
+        margin: 0 10px;
+    }
+
+    .info h2{
+        font-size: 13px;
+    }
+
+    .info{
+        max-width: 100px;
+    }
+
+    .linguagem-1{
+        overflow-x: hidden;
+    }
+    .lenguage{
+        overflow-x: hidden
+    }
+}
+
+@media (max-width: 500px){
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 100vh;
+        margin-right: 30px;
+    }
+
+    audio{
+        margin-top: -150px;
+    }
+
+    .pro{
+        width: 14rem;
+        margin: 10px 0 ;
+    }
+    
+}
+
+@media (max-width: 400px){
+    .info h2{
+        font-size: 11px;
+    }
+    
+    .infi{
+        margin-left: -10px;
+    }
+}
